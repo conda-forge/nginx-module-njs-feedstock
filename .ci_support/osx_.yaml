@@ -1,0 +1,23 @@
+MACOSX_DEPLOYMENT_TARGET:
+- '10.9'
+c_compiler:
+- clang
+channel_sources:
+- conda-forge,defaults
+channel_targets:
+- conda-forge main
+curl:
+- '7.59'
+macos_machine:
+- x86_64-apple-darwin13.4.0
+macos_min_version:
+- '10.9'
+nginx:
+- 1.14.2
+nginx_sha256:
+- 002d9f6154e331886a2dd4e6065863c9c1cf8291ae97a1255308572c02be9797
+pin_run_as_build:
+  curl:
+    max_pin: x
+  nginx:
+    max_pin: x.x.x
